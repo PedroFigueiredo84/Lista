@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C911FD90-D584-4C97-9D6A-3F495CFF8D12}</ProjectGuid>
+    <ProjectGuid>{6FE5EB9A-BEB2-411E-B349-8FC482644244}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Lista</RootNamespace>
-    <AssemblyName>Lista</AssemblyName>
+    <RootNamespace>Exercicio</RootNamespace>
+    <AssemblyName>Exercicio</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Lista.cs" />
+    <Compile Include="Banana.cs" />
+    <Compile Include="Cesto.cs" />
+    <Compile Include="Fruta.cs" />
+    <Compile Include="Laranja.cs" />
+    <Compile Include="Maça.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
